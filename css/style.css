@@ -1,0 +1,193 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: azure;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(255, 213, 134);
+    
+}
+header {
+    background-image: url(../img/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+footer {
+    background-color: rgb(231, 128, 87);
+    color: rgb(255, 244, 240);
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 20px;
+}
+nav {
+    width: 20%;
+    float: left;
+}
+#content {
+    width: 80%;
+    float: right;
+    position: relative;
+    flex: 1;
+    display: flex;
+}
+.cb {
+    clear: both;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  
+}
+nav ul li {
+   text-align: center;
+   color: rgb(163, 7, 7);
+   font-weight: bold;
+   padding: 14px 0;
+   background-color: rgb(248, 173, 145);
+   border-radius: 20px;
+   border: solid 2px rgb(155, 50, 2);
+}
+nav ul li:hover {
+    color:  rgb(255, 238, 238);
+    background-color:  rgb(247, 122, 6);
+    padding: 14px;
+    border-radius: 20px;
+}
+a {
+    text-decoration: none;
+}
+#principal {
+    display: flex;
+}
+#home {
+    background-color: rgb(255, 213, 134);
+    flex: 1;
+    text-align: center;
+    padding-top: 40px;
+}
+.cb {
+    clear: both;
+    
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+nav ul li {
+   text-align: center;
+   color: rgb(16, 10, 83);
+   font-weight: bold;
+   padding: 18px 0;
+   border-radius: 20px;
+   border: solid 2px rgb(78, 69, 168);
+}
+nav ul li:hover {
+    color:  rgb(216, 213, 247);
+    background-color: rgb(16, 10, 83);
+}
+.text-center{
+   text-align:center;
+}
+
+
+ul {
+   text-align: left;
+}
+span{
+    font-weight: bold;
+    color: fuchsia;
+    font-size: 20px;
+}
+.parrafo{
+    margin-left: 60px;
+}
+.div-example{
+    background-color: brown;
+    height: 37px;
+    width: 35px;
+}
+ul.descus >li{
+list-style-type: square;
+}
+#home h2{
+    margin: 0px;
+    background-color: brown;
+}
+
+#tablas {
+    padding: 20px   ;
+}
+.colorth{
+    margin: 0 auto;
+}
+.colorth tr th{
+    background-color: blueviolet;
+    color: aliceblue;
+    font-size: 20px;
+}
+.striped tr:nth-child(odd) {
+background-color: aqua;
+
+} 
+.striped tr:nth-child(even){
+    background-color: blueviolet;
+}
+/*a partir de aqui clases para la tabla de horario*/
+
+.colortabla {
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+.dia{
+    text-align: center;
+    color: rgb(0, 134, 90);
+}
+.prog{
+    background-color:rgb(255, 217, 2) ;
+    text-align: center;
+}
+.lmsg{
+    background-color: rgb(11, 11, 204);
+    text-align: center;
+}
+.ing{
+    background-color: rgb(68, 221, 68);
+    text-align: center;
+}
+.ende{
+    background-color:rgb(233, 43, 43) ;
+    text-align: center;
+}
+.sisi{
+    background-color: rgb(4, 110, 4);
+    text-align: center;
+}
+.fol{
+    background-color:palevioletred ;
+    text-align: center;
+}
+.bdd{
+    background-color: aquamarine;
+    text-align: center;
+}
+/**a partir de aqui formularios**/
+#formularios{
+    margin-left: 30px   ;
+}
+.form1{
+    background-color:aliceblue;
+  width: 60%;
+}
+.wth-100{
+width: 99%;
+}
+.wth-50{
+    width: 49%;
+}
